@@ -45,13 +45,13 @@ export default ({ data }) => {
           </button>
         </div>
         <div className="hero__social flex justify-center py-3">
-          {social.twitter.show && (
+          {social.facebook.show && (
             <a
-              href={social.twitter.link}
+              href={social.facebook.link}
               target="_blank"
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
-              <i className="mdi mdi-twitter"></i>
+              <i className="mdi mdi-facebook"></i>
             </a>
           )}
           {social.instagram.show && (
