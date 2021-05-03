@@ -12,13 +12,13 @@ hero:
     text: Contact
   social:
     facebook:
-      link: 'https://facebook.com'
+      link: 'https://twitter.com/inespart'
       show: true
     instagram:
       link: 'https://instagram.com'
       show: true
     linkedin:
-      link: 'https://linkedin.com'
+      link: 'https://www.linkedin.com/in/inespart/'
       show: true
   typed:
     - text: beautiful websites.
@@ -28,12 +28,11 @@ about:
   heading: Who am I?
   image: /img/about.jpeg
   text: >
-    I am Ines. I love to create beautiful and interactive websites.
+    I’m Ines, an Austrian web developer based in Vienna with a business and teaching background. I am available for full-time roles & freelance projects.
 features:
   - icon: monitor-screenshot
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus
-      mi.
+      I design with creativity and user experience at its core.
     title: UI/UX
   - icon: draw
     text: >
@@ -42,8 +41,7 @@ features:
     title: Logo Design
   - icon: xml
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dapibus
-      mi.
+      I create beautiful and interactive web sites.
     title: Web Development
 portfolio:
   projects:
@@ -73,5 +71,5 @@ portfolio:
       title: UIoUXy
   title: My work
 footer:
-  text: © John Doe
+  text: © Ines Part
 ---

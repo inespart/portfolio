@@ -48,7 +48,7 @@ export default ({ data }) => {
           {social.twitter.show && (
             <a
               href={social.twitter.link}
-              target="https://twitter.com/inespart"
+              target="_blank"
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
               <i className="mdi mdi-twitter"></i>
@@ -66,7 +66,7 @@ export default ({ data }) => {
           {social.linkedin.show && (
             <a
               href={social.linkedin.link}
-              target="https://www.linkedin.com/in/inespart/"
+              target="_blank"
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
               <i className="mdi mdi-linkedin"></i>
