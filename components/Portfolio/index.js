@@ -12,16 +12,16 @@ export default ({ data }) => {
                             key={project.title}
                             className="portfolio__project h-56"
                             style={{ background: `url('${project.image}') center`, backgroundSize: "cover" }}
-                        >   
+                        >
                             <div className="w-full h-full py-16 text-center text-transparent hover:text-white hover:bg-black hover:opacity-75">
                                 <h4>{project.title}</h4>
-                                <button
+                                <a
                                     href={project.btnLink}
                                     target="_blank"
                                     className="font-bold py-3 px-5 my-3 hover:bg-white hover:text-gray-800"
                                 >
                                     {project.btnText}
-                                </button>
+                                </a>
                             </div>
                         </div>
                     ))}

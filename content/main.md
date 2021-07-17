@@ -3,7 +3,7 @@ hero:
   firstButton:
     icon: briefcase-outline
     link: '/#portfolio'
-    text: My work
+    text: My portfolio
   heading: "I'm Ines, and I create"
   image: /img/hero.jpeg
   secondButton:
@@ -29,20 +29,20 @@ about:
   heading: Who am I?
   image: /img/about.jpeg
   text: >
-    I’m Ines, an Austrian web developer based in Vienna with a business and teaching background.
+    I’m Ines, an Austrian web developer based in Vienna with a business and teaching background. I am a proactive person with a growth mindset and a passion for problem-solving and design. Also, I am an avid learner and I'm curious about the world around me.
 features:
   - icon: xml
     text: >
-      fast websites built with cutting-edge technology
-    title: state-of-the-art
+      Fast websites built with cutting-edge technology
+    title: State-of-the-art
   - icon: monitor-screenshot
     text: >
-      my layouts will work on any device
-    title: responsive
+      My layouts will work on any device
+    title: Responsive
   - icon: draw
     text: >
-      easy to use and intuitive UX/UI
-    title: intuitive
+      Easy to use and intuitive UX/UI
+    title: Intuitive
 portfolio:
   projects:
     # - btnLink: 'https://behance.com'
@@ -50,7 +50,7 @@ portfolio:
     #   image: /img/project-1.jpeg
     #   title: Digital Garden
     - btnLink: 'https://ecommerce-die-schreiberei.herokuapp.com/'
-      btnText: View on Behance
+      btnText: Visit website
       image: /img/project-2.jpeg
       title: Ecommerce shop "Die Schreiberei"
     - btnLink: 'https://karinoeberseder.at'
@@ -61,7 +61,7 @@ portfolio:
       btnText: Visit website
       image: /img/project-4.jpeg
       title: WTC Schärding
-  title: My work
+  title: My portfolio
 footer:
   text: © Ines Part | Vienna | 2021
 ---
