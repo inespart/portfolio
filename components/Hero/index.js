@@ -29,20 +29,20 @@ export default ({ data }) => {
           />
         </h2>
         <div className="hero__buttons flex justify-center my-3">
-          <button
+          <a
             href={firstButton.link}
             className="font-bold border-solid border-2 border-white py-3 px-5 mx-3 hover:bg-white hover:text-gray-800"
           >
             <i className={`mdi mdi-${firstButton.icon} mr-2 text-xl`}></i>
             {firstButton.text}
-          </button>
-          <button
+          </a>
+          <a
             href={secondButton.link}
             className="font-bold border-solid border-2 border-white py-3 px-5 mx-3 hover:bg-white hover:text-gray-800"
           >
             <i className={`mdi mdi-${secondButton.icon} mr-2 text-xl`}></i>
             {secondButton.text}
-          </button>
+          </a>
         </div>
         <div className="hero__social flex justify-center py-3">
            {social.twitter.show && (
@@ -54,23 +54,13 @@ export default ({ data }) => {
               <i className="mdi mdi-twitter"></i>
             </a>
           )}
-          {/*
-          {social.instagram.show && (
-            <a
-              href={social.instagram.link}
-              target="_blank"
-              className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
-            >
-              <i className="mdi mdi-instagram"></i>
-            </a>
-          )} */}
           {social.github.show && (
             <a
               href={social.github.link}
               target="_blank"
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
-              <i className="mdi mdi-github-circle"></i>
+              <i className="mdi mdi-github-box"></i>
             </a>
           )}
           {social.linkedin.show && (

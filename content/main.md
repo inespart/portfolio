@@ -7,7 +7,7 @@ hero:
   heading: "I'm Ines, and I create"
   image: /img/hero.jpeg
   secondButton:
-    icon: whatsapp
+    icon: email
     # link: '/#contact'
     link: 'mailto:ines.part@gmx.at'
     text: Contact
