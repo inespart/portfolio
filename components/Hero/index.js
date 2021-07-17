@@ -45,15 +45,16 @@ export default ({ data }) => {
           </button>
         </div>
         <div className="hero__social flex justify-center py-3">
-          {social.facebook.show && (
+           {social.twitter.show && (
             <a
-              href={social.facebook.link}
+              href={social.twitter.link}
               target="_blank"
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
-              <i className="mdi mdi-facebook"></i>
+              <i className="mdi mdi-twitter"></i>
             </a>
           )}
+          {/*
           {social.instagram.show && (
             <a
               href={social.instagram.link}
@@ -61,6 +62,15 @@ export default ({ data }) => {
               className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
             >
               <i className="mdi mdi-instagram"></i>
+            </a>
+          )} */}
+          {social.github.show && (
+            <a
+              href={social.github.link}
+              target="_blank"
+              className="mx-2 px-1 text-xl hover:bg-gray-800 rounded-lg"
+            >
+              <i className="mdi mdi-github-circle"></i>
             </a>
           )}
           {social.linkedin.show && (
